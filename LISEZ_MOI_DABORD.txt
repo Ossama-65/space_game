@@ -1,0 +1,121 @@
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║     🚀 JEU SPACE BATTLE - SANS UNITY!                   ║
+║                                                          ║
+║     Jeu de combat spatial multijoueur                   ║
+║     Port 3500 - Jusqu'à 4 joueurs                       ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+
+
+⚡ LANCEMENT EN 2 ÉTAPES:
+═══════════════════════════════════════════════════════════
+
+1️⃣  INSTALLEZ PYGAME (une seule fois):
+    
+    Ouvrez le Terminal et tapez:
+    
+    pip3 install pygame
+    
+    Appuyez sur Entrée. Attendez 10 secondes. C'est fait!
+
+
+2️⃣  LANCEZ LE JEU:
+
+    Option A - Menu automatique (FACILE):
+    ─────────────────────────────────────
+    Double-cliquez sur: LANCER_ICI.sh
+    
+    Choisissez 1 (Héberger) ou 2 (Rejoindre)
+    
+    
+    Option B - Manuel:
+    ─────────────────────
+    Terminal 1:  python3 server.py
+    Terminal 2:  python3 client.py 127.0.0.1
+
+
+🎮 CONTRÔLES:
+═══════════════════════════════════════════════════════════
+
+    ZQSD ou WASD  →  Bouger le vaisseau
+    SOURIS        →  Viser
+    ESPACE        →  Tirer 💥
+    CLIC GAUCHE   →  Tirer (alternatif)
+    ÉCHAP         →  Quitter
+
+
+🌐 MULTIJOUEUR (avec des amis):
+═══════════════════════════════════════════════════════════
+
+1. Sur VOTRE PC:
+   
+   Trouvez votre IP:
+   Terminal > ifconfig | grep "inet "
+   Exemple de résultat: 192.168.1.100
+   
+   Lancez le serveur:
+   python3 server.py
+   
+   Donnez votre IP à vos amis!
+
+
+2. Sur le PC de vos AMIS:
+   
+   Ils lancent:
+   python3 client.py 192.168.1.100
+   (Avec votre vraie IP!)
+   
+   Ils apparaissent dans votre jeu! 🎉
+
+
+📦 FICHIERS:
+═══════════════════════════════════════════════════════════
+
+✅ server.py           - Serveur du jeu (port 3500)
+✅ client.py           - Client du jeu (fenêtre graphique)
+✅ LANCER_ICI.sh       - Script de lancement rapide
+✅ README.md           - Documentation complète
+✅ requirements.txt    - Dépendances Python
+
+
+🐛 PROBLÈMES?
+═══════════════════════════════════════════════════════════
+
+"pygame not found"
+→ pip3 install pygame
+
+"Connection refused"
+→ Lancez d'abord server.py
+
+"Port 3500 already in use"
+→ python3 server.py 3501
+→ python3 client.py 127.0.0.1 3501
+
+
+✨ POURQUOI C'EST MIEUX QU'UNITY?
+═══════════════════════════════════════════════════════════
+
+✅ Installation: 1 commande vs 2 heures
+✅ Lancement: Immédiat vs Setup complexe
+✅ Taille: 10 KB vs 2 GB
+✅ Facilité: ⭐⭐⭐⭐⭐ vs ⭐⭐
+
+
+🎯 EN RÉSUMÉ:
+═══════════════════════════════════════════════════════════
+
+1. pip3 install pygame
+2. python3 server.py
+3. (Nouveau Terminal) python3 client.py 127.0.0.1
+4. JOUEZ! 🚀
+
+
+📚 Plus d'infos? Lisez README.md
+
+
+═══════════════════════════════════════════════════════════
+Amusez-vous bien! 🎮✨
+Jeu créé pour tourner sur port 3500 sans Unity!
+═══════════════════════════════════════════════════════════
+
